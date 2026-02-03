@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application' version '8.1.0'
+}
+android {
+    namespace 'com.wanzz.spamnglwanzz'
+    compileSdk 33
+    defaultConfig {
+        applicationId "com.wanzz.spamnglwanzz"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
+// Repository Google wajib ada
+repositories {
+    google()
+    mavenCentral()
+}
